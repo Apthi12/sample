@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-27T19:35:00 IST" name="Default suite" finished-at="2023-08-27T19:35:00 IST" duration-ms="168">
+    <groups>
+      <group name="sanity Testing">
+        <method signature="TestNGGroup.tc2()[pri:0, instance:com.hcl.TestNGGroup@78e4deb0]" name="tc2" class="com.hcl.TestNGGroup"/>
+      </group> <!-- sanity Testing -->
+      <group name="Regression Testing">
+        <method signature="TestNGGroup.tc4()[pri:0, instance:com.hcl.TestNGGroup@78e4deb0]" name="tc4" class="com.hcl.TestNGGroup"/>
+      </group> <!-- Regression Testing -->
+      <group name="UAT Testing">
+        <method signature="TestNGGroup.tc3()[pri:0, instance:com.hcl.TestNGGroup@78e4deb0]" name="tc3" class="com.hcl.TestNGGroup"/>
+      </group> <!-- UAT Testing -->
+      <group name="smoke">
+        <method signature="TestNGGroup.tc1()[pri:0, instance:com.hcl.TestNGGroup@78e4deb0]" name="tc1" class="com.hcl.TestNGGroup"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-08-27T19:35:00 IST" name="Default test" finished-at="2023-08-27T19:35:00 IST" duration-ms="168">
+      <class name="com.hcl.TestNGGroup">
+        <test-method signature="tc1()[pri:0, instance:com.hcl.TestNGGroup@78e4deb0]" started-at="2023-08-27T19:35:00 IST" name="tc1" finished-at="2023-08-27T19:35:00 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc2()[pri:0, instance:com.hcl.TestNGGroup@78e4deb0]" started-at="2023-08-27T19:35:00 IST" name="tc2" finished-at="2023-08-27T19:35:00 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method signature="tc3()[pri:0, instance:com.hcl.TestNGGroup@78e4deb0]" started-at="2023-08-27T19:35:00 IST" name="tc3" finished-at="2023-08-27T19:35:00 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method signature="tc4()[pri:0, instance:com.hcl.TestNGGroup@78e4deb0]" started-at="2023-08-27T19:35:00 IST" name="tc4" finished-at="2023-08-27T19:35:00 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+      </class> <!-- com.hcl.TestNGGroup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
